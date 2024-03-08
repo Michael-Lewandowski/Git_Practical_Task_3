@@ -8,10 +8,10 @@
 3. Display the pattern.
 """
 
-for star in range(1, 10):
+for star in range(1, 20):
     # For the first half of the pattern including the middle line (1 to 5)
-    if star <= 5:
+    if star <= 10:
         print('*' * star)
     # For the second half of the pattern (6 to 9)
     else:
-        print('*' * (10 - star))
+        print('*' * (20 - star))
